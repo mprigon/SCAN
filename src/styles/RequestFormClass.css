@@ -1,0 +1,58 @@
+.text-danger {
+    color: red;
+}
+
+.form-group {
+    color: blueviolet;
+}
+
+.form-control {
+    color: green;
+}
+
+label {
+    display: block;
+    margin: 1px;
+    padding: 1px;
+  }
+  
+.field {
+    margin: 1px;
+    padding: 1px;
+}
+  
+input:invalid {
+    background-color: #ffdddd;
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+}
+  
+form:invalid {
+    border: 5px solid yellow;
+}
+  
+/* input:valid {
+    background-color: #ddffdd;
+} */
+  
+form:valid {
+    border: 5px solid #ddffdd;
+}
+  
+input:required {
+    border-color: #800000;
+    border-width: 3px;
+}
+  
+input:required:invalid {
+    border-color: #c00000;
+}
+
+input:disabled {
+    background: gray;
+}
+
+input:disabled:hover {
+    background: gray;
+}

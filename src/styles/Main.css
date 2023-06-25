@@ -1,0 +1,75 @@
+.main {
+    display: inline;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+
+.main-flex-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color:aquamarine;
+}
+
+.main-flex-container > div {
+  background-color: #f1f1f1;
+  width: 50%;
+  margin: 10px;
+}
+
+.card {
+  background-color: beige;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card-header {
+  position: relative;
+}
+
+.card-section {
+  position: relative;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-img {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #fafafa;
+    padding: 10px 15px 15px;
+    color: #616161;
+}
+
+.main-img {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+}
+
+.btn {
+  display: inline-block; /* Строчно-блочный элемент */
+  background: blue; /* Синий цвет фона */
+  color: #fff; /* Белый цвет текста */
+  padding: 0.5rem 1rem; /* Поля вокруг текста */
+  text-decoration: none; /* Убираем подчёркивание */
+  border-radius: 3px; /* Скругляем уголки */
+ }
+
+ .btn:hover {
+  background: blueviolet; /* Синий цвет фона */
+ }
